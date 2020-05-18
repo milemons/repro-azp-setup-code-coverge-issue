@@ -1,8 +1,7 @@
 trigger:
   - master
 
-pool:
-  vmImage: 'ubuntu-latest'
+pool: Default
 
 steps:
   - script: python3 -m pip install -r requirements.txt --user
